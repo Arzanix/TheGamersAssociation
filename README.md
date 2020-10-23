@@ -195,14 +195,14 @@ sudo screen -S MyArk
 2. Running the server startup script
 ```sh
 sudo ./startup.sh
-
+```
 _For more examples, please refer to the [Documentation](https://example.com)_
 
 
 
 <!-- ROADMAP -->
 ## Roadmap
-Comming Soon.
+Coming Soon.
 See the [open issues](https://github.com/Arzanix/TheGamersAssociation/issues) for a list of proposed features (and known issues).
 
 
@@ -223,5 +223,5 @@ Contributions are what make the open source community such an amazing place to b
 ## MODS
 
 * [Structure Plus (S+))]()
-* [Better Becon]()
+* [Better Beacon]()
 * [Backpack]()
