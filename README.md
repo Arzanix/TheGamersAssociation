@@ -60,15 +60,13 @@
 * [Usage](#usage)
 * [Roadmap](#roadmap)
 * [Contributing](#contributing)
-* [License](#license)
-* [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
+
 
 
 
 <!-- ABOUT THE PROJECT -->
 ## TGA's Ark Servers
-![Ark_BG](images/Ark-bg.jpg)
+![Ark_BG](Images/Ark-bg.jpg)
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -204,7 +202,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 <!-- ROADMAP -->
 ## Roadmap
-
+Comming Soon.
 See the [open issues](https://github.com/Arzanix/TheGamersAssociation/issues) for a list of proposed features (and known issues).
 
 
@@ -214,8 +212,11 @@ See the [open issues](https://github.com/Arzanix/TheGamersAssociation/issues) fo
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-Project Link: [https://github.com/Arzanix/TheGamersAssociation](https://github.com/Arzanix/TheGamersAssociation)
-Discord: https://discord.gg/yrvQBDf
++ Discord: https://discord.gg/yrvQBDf
+
++ Project Link: [https://github.com/Arzanix/TheGamersAssociation](https://github.com/Arzanix/TheGamersAssociation)
+
+
 
 
 <!-- ACKNOWLEDGEMENTS -->
