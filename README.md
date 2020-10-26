@@ -11,19 +11,18 @@ Repository to knowledge Ark players seeking to self host private Ark dedicated s
 
 
 <!-- ABOUT THE PROJECT -->
-### TGA's Ark Servers
-![Ark_BG](Images/Ark-bg.jpg)
+### Ark Survival Evolved Dedicated Server Installation
 
 <!-- TGA OFFICIAL SERVERS -->
-# TGA Clustered Server
+### TGA Clustered Server
 
-><img src="/Images/steam.png" width="50" height="50" /> | [Join Ragnarok](steam://connect/213.239.196.16:27015)
+* <img src="/Images/steam.png" width="50" height="50" /> | [Join Ragnarok](steam://connect/213.239.196.16:27015)
 
-><img src="/Images/steam.png" width="50" height="50" /> | [Join The Island](steam://connect/213.239.196.16:27017)
+* <img src="/Images/steam.png" width="50" height="50" /> | [Join The Island](steam://connect/213.239.196.16:27017)
 
- ><img src="/Images/steam.png" width="50" height="50" /> | [Join The Crystal Isles](steam://connect/213.239.196.16:27019)
+* <img src="/Images/steam.png" width="50" height="50" /> | [Join The Crystal Isles](steam://connect/213.239.196.16:27019)
 <!-- GETTING STARTED -->
-# Getting Started
+## Getting Started
 Now before you start you may consider creating a new user, I am lazy therefore have continued with `root` user.
 
 * Creating new `USER`
@@ -41,7 +40,7 @@ sudo - <YOUR_USERNAME>
 ```sh
 sudo apt-get update && sudo apt-get -y upgrade
 ```
-# Prerequisites
+## Prerequisites
 If using 64bit architecture Linux servers will require 32 bit binaries to install/run steamcmd
 
 * Installing lib32gcc1
@@ -54,7 +53,7 @@ sudo apt-get install lib32gcc1
 sudo apt-get install screen
 ```
 
-# Installation
+## Installation
 The magic process :D
 
 1. Lets make a new directory for steam commands.
@@ -151,7 +150,7 @@ sudo ./startup.sh
 ```
 
 
-# Game Configurations
+## Game Configurations
 Bare in mind that your file path will be different to this.
 1. Linux path to Ark survival evolved config.
 ```sh
@@ -168,7 +167,7 @@ C:\Steam\steamapps\common\ARK\ShooterGame\Saved\Config\WindowsServer
 
 
 <!-- MODS -->
-# Mods
+## Mods
 
 Mods Folder Path, This is where you would manually transfer your mods too.
 1. Linux path to Ark survival evolved config.
@@ -188,7 +187,7 @@ To browse other mods including popular ones you can visit [Ark Survival Evolved 
 * [Backpack](https://steamcommunity.com/sharedfiles/filedetails/?id=736236773)
 
 
-# Updating Game Server(s)
+## Updating Game Server(s)
 Generally it the same process as to install a new server, however `Steam Cmd` will go ahead
 and start updating the sever.
 
@@ -222,13 +221,13 @@ app_update 376030 validate
 
 
 <!-- ROADMAP -->
-# Roadmap
+## Roadmap
 Coming Soon.
 See the [open issues](https://github.com/Arzanix/TheGamersAssociation/issues) for a list of proposed features (and known issues).
 
 
 <!-- CONTRIBUTING -->
-# Contributing
+## Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
