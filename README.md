@@ -1,7 +1,6 @@
 # The Gamers Association
-
-<img src="Images/tga-discord.jpg" align="left" hspace="50" vspace="10" width="100" height="100" >
-<img src="Images/sep.png" align="left" width="25" height="100" >
+<img src="Images/tga-discord.jpg" align="left" hspace="10" vspace="6" width="100" height="100" >
+<img src="Images/sep.png" align="left" width="5" height="100" >
 
 Repository to knowledge Ark players seeking to self host private Ark dedicated server on Linux(Ubuntu) without using third party libraries.
 
