@@ -88,7 +88,6 @@ sudo - <YOUR_USERNAME>
 sudo apt-get update && sudo apt-get -y upgrade
 ```
 ### Prerequisites
-
 If using 64bit architecture Linux servers will require 32 bit binaries to install/run steamcmd
 
 * Installing lib32gcc1
@@ -160,12 +159,11 @@ cd ../TGA
 ```
 
  12. Creating server launch script.
+
  ```sh
  sudo vim startup.sh
  ```
-
 Press `INSET` to start entering text.
-
 
  Paste this command in to your startup script. Replace <Map> with your desired map. Here is list of map names.
   `TheIsland`, `TheCenter` , `Ragnarok`, `CrystalIsles` ,
@@ -174,6 +172,7 @@ Press `INSET` to start entering text.
  ```sh
  ./ShooterGame/Binaries/Linux/ShooterGameServer Ragnarok?listen?SessionName=GameLab? -server -log
  ```
+
  Now to exit vim and save the changes pressing `ESC`  followed by a colon and `wq` to write and quit`:wq`.
 
 
@@ -198,8 +197,10 @@ sudo ./startup.sh
 ```
 _For more examples, please refer to the [Documentation](https://example.com)_
 
+## Updating Game Server(s)
+[Game.ini](Configs/Linux/Game.ini)
 
-
+## test
 <!-- ROADMAP -->
 ## Roadmap
 Coming Soon.
