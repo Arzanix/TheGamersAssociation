@@ -209,8 +209,8 @@ Bare in mind that your file path will be different to this.
 C:\Steam\steamapps\common\ARK\ShooterGame\Saved\Config\WindowsServer
 ```
 
-* [Game.ini](Configs/Linux/Game.ini) - Game Files (Custom Map spawns etc..)
-* [GameUserSettings.ini](Configs/Linux/GameUserSettings.ini) - Game User Settings  (Where server settings are placed such a Gathering, Taming etc..)
+* [Game](Configs/LinuxServer/Game.ini) - Game Files (Custom Map spawns etc..)
+* [GameUserSettings](Configs/LinuxServer/GameUserSettings.ini) - Game User Settings  (Where server settings are placed such a Gathering, Taming etc..)
 
 
 <!-- MODS -->
