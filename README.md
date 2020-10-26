@@ -197,15 +197,80 @@ sudo ./startup.sh
 ```
 _For more examples, please refer to the [Documentation](https://example.com)_
 
-## Updating Game Server(s)
-[Game.ini](Configs/Linux/Game.ini)
+## Game Configurations
+Bare in mind that your file path will be different to this.
+1. Linux path to Ark survival evolved config.
+```sh
+/Arzanix/Hosts/Ark/Ragnarok/ShooterGame/Saved/Config/LinuxServer
+```
 
-## test
+2. Windows path to Ark survival evolved config.
+```sh
+C:\Steam\steamapps\common\ARK\ShooterGame\Saved\Config\WindowsServer
+```
+
+* [Game.ini](Configs/Linux/Game.ini) - Game Files (Custom Map spawns etc..)
+* [GameUserSettings.ini](Configs/Linux/GameUserSettings.ini) - Game User Settings  (Where server settings are placed such a Gathering, Taming etc..)
+
+
+<!-- MODS -->
+## Mods
+
+Mods Folder Path, This is where you would manually transfer your mods too.
+1. Linux path to Ark survival evolved config.
+```sh
+/Arzanix/Ragnarok/ShooterGame/Content/Mods
+```
+
+2. Windows path to Ark survival evolved config.
+```sh
+C:\Steam\steamapps\common\ARK\ShooterGame\Content\Mods
+```
+To browse other mods including popular ones you can visit [Ark Survival Evolved Steam Workshop](https://steamcommunity.com/app/346110/workshop/)
+
+* [Classic Fly](https://steamcommunity.com/sharedfiles/filedetails/?id=895711211)
+* [Structure Plus (S+))](https://steamcommunity.com/sharedfiles/filedetails/?id=731604991)
+* [Better Beacon](https://steamcommunity.com/sharedfiles/filedetails/?id=506506101)
+* [Backpack](https://steamcommunity.com/sharedfiles/filedetails/?id=736236773)
+
+
+## Updating Game Server(s)
+Generally it the same process as to install a new server, however `Steam Cmd` will go ahead
+and start updating the sever.
+
+1. Change your directory to `steamcmd`.
+```sh
+cd ../steamcmd
+```
+
+2. Executing steam script.
+```sh
+sudo ./steamcmd.sh
+```
+
+3. Loging in as anonymous.
+```sh
+login anonymous
+```
+4. The server path you wish to update. Be sure to check the path otherwise you are likely to install a new server
+```sh
+force_install_dir ../TGA
+```
+
+5. Finally lets start updating.
+```sh
+app_update 376030 validate
+```
+
+
+
+
+
+
 <!-- ROADMAP -->
 ## Roadmap
 Coming Soon.
 See the [open issues](https://github.com/Arzanix/TheGamersAssociation/issues) for a list of proposed features (and known issues).
-
 
 
 <!-- CONTRIBUTING -->
@@ -216,13 +281,3 @@ Contributions are what make the open source community such an amazing place to b
 + Discord: https://discord.gg/yrvQBDf
 
 + Project Link: [https://github.com/Arzanix/TheGamersAssociation](https://github.com/Arzanix/TheGamersAssociation)
-
-
-
-
-<!-- ACKNOWLEDGEMENTS -->
-## MODS
-
-* [Structure Plus (S+))]()
-* [Better Beacon]()
-* [Backpack]()
